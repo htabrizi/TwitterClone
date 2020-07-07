@@ -45,4 +45,23 @@ margin-right: 2rem;
     font: size 2rem;
 }
 /* end of left */
+/* right */
+.right{
+    grid-column:2 / -1;
+    grid-row:1/2;
+    position: relative;
+}
+.right-content-form{
+    display:flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+.middle-content{
+    position :absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+/* right */
 /* end of main page */
