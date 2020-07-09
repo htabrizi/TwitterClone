@@ -253,14 +253,58 @@ font-size:2.4rem;
     margin-bottom:3rem;
 
 }
+.login-form div{
+    margin-top:2rem;
+}
+
+.login-form button{
+    padding: 1rem 1.5rem;
+    background-color: #1aa1f5;
+    color: #fff;
+    border-radius: 4rem;
+    border: .1rem solid #1aa1f5;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right:1rem ;
+    cursor: pointer;
+}
+.login-form label{
+font-size:1.6rem;
+    font-weight:300;
+    margin-right:1rem;
+}
+
+.login-form a{
+    text-decoration:none;
+    font-size:1.6rem;
+    color: #1aa1f5;
+}
 
  .login-footer{
      grid-column: 1/-1;
      grid-row: 2/-1;
      background-color: #edf3f7;
-     padding-left: 10rem;
+     padding-left: 100px;
+display: flex;
+     flex-direction: column;
+     justify-content:center;
+     margin-top:2rem;
+
+
 
  }
+.login-footer p {
+    font-size:1.6rem;
+    font-weight: 300;
+    margin: .5rem 0;
+
+}
+
+.login-footer a {
+    text-decoration: none;
+    color: #1aa1f5;
+    }
+
 
 /*  login */
 /* end of login */
