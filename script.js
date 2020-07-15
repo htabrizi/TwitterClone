@@ -3,7 +3,8 @@ const mainPage = document.querySelector('.main-page');
 const loginpage = document.querySelector('.login-page');
 const middleContent=document.querySelector('.middle-content');
 const btnTop=document.querySelector('.btn-top');
-const newsFeedPage =document.querySelector('.feeds-page')
+const newsFeedPage =document.querySelector('.feeds-page');
+const loginModal=document.querySelector('.login-modal');
 /*************************************************************/
 /*************************************************************/
 
@@ -31,6 +32,7 @@ newsFeedPage.style.display='block';
     }
     else{
         goToLoginPage()
+        loginModal.style.display='block';
     }
 });
 

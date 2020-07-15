@@ -212,7 +212,7 @@ body {
     grid-row: 1 / 2;
     background-color: #fff;
     padding: 2.5rem 0;
-    box-shadow: 0 0 0.7rem rgba(0,0,0, 0.3);
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
 }
 
 .login-page-nav ul {
@@ -244,16 +244,18 @@ body {
 
 }
 
-.login-page-nav li:hover::after{
+.login-page-nav li:hover::after {
     opacity: 1;
 }
+
 .login-page-nav a {
     font-size: 1.6rem;
     text-decoration: none;
     color: #555555;
     transition: color 0.3s;
 }
-.login-page-nav li:hover a{
+
+.login-page-nav li:hover a {
     color: #1aa1f5;
 }
 
@@ -310,26 +312,30 @@ body {
 }
 
 
-.login-form{
-    display:flex;
+.login-form {
+    display: flex;
     flex-direction: column;
 }
-.login-form input:not(.login-form-checkbox){
-    width:30rem;
+
+.login-form input:not(.login-form-checkbox) {
+    width: 30rem;
     height: 3.5rem;
     margin-bottom: 1rem;
     border: .1rem solid #ddd;
-    border-radius:.5rem ;
+    border-radius: .5rem;
     padding-left: 1rem;
     font-size: 1.5rem;
     transition: background-color 0.3s;
 }
-.login-form input:focus{
+
+.login-form input:focus {
     background-color: #d9ebf7;
 }
+
 .login-form div {
     margin-top: 2rem;
 }
+
 .login-form button {
     padding: 1rem 1.5rem;
     background-color: #1aa1f5;
@@ -380,15 +386,45 @@ body {
 }
 
 /* end of login */
+/* login modal*/
+.login-modal {
+    position: fixed;
+    top: 11.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 70rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 1rem 1rem ;
+display: none   ;
+}
+.login-modal i{
+    position: absolute;
+    top: 2rem;
+    right: 2rem ;
+    font-size: 1.3rem;
+    color:#868383;
+    cursor: pointer;
+
+}
+.login-modal p {
+    margin: 2rem 1rem 0 1rem ;
+    font-size: 1.6rem;
+    color: #868383;
+}
+/* end of login modal */
 /* end of login page */
 
-/* feeds nav */
+/* feeds page */
 
 .feeds-page {
     width: 100%;
     height: 100vh;
     display: none;
 }
+
 .feeds-nav {
     position: fixed;
     width: 100%;
@@ -619,50 +655,57 @@ body {
 .post-icons {
     margin-top: 1rem
 }
+
 .post-icons i {
-    font-size:1.8rem;
+    font-size: 1.8rem;
     color: #868383;
-    margin-right:6rem;
+    margin-right: 6rem;
 }
-.follow{
+
+.follow {
     position: fixed;
-    top:8rem;
-    left:57%;
+    top: 8rem;
+    left: 57%;
     background-color: #fff;
-width:35rem;
+    width: 35rem;
 }
-.follow-heading{
+
+.follow-heading {
     padding-left: 1rem;
     font-size: 1.8rem;
     border-bottom: .1rem solid #eee;
-     
-}
-.follow-user{
-    display: flex;
-    align-items: center;
-padding: 1.5rem;
-border-bottom: .1rem solid #eee;
 
 }
-.follow-user-img{
+
+.follow-user {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: .1rem solid #eee;
+
+}
+
+.follow-user-img {
     width: 6rem;
     height: 6rem;
     margin-right: 2rem;
 }
-.follow-user-img img{
+
+.follow-user-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .follow-user-info h4,
-.follow-user-info p{
-font-size: 1.6rem;
-margin-bottom: .5rem;
+.follow-user-info p {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
 }
-.follow-btn{
-    margin-left:auto;
+
+.follow-btn {
+    margin-left: auto;
     width: 9rem;
     background-color: #fff;
     color: #1aa1f5;
@@ -672,43 +715,44 @@ margin-bottom: .5rem;
     font-size: 1.6rem;
     cursor: pointer;
 }
- 
-.follow-link{
-    margin:2rem 1 rem;
+
+.follow-link {
+    margin: 2rem 1rem;
 }
- 
-.follow-link a{
-    text-decoration: none;    
-    color:#1aa1f5;
+
+.follow-link a {
+    text-decoration: none;
+    color: #1aa1f5;
     font-size: 1.5rem;
 }
 
-.follow-footer{
+.follow-footer {
     background-color: #f0f8fd;
 
 
 }
 
-.follow-footer ul{
-    list-style:none;
+.follow-footer ul {
+    list-style: none;
     display: flex;
     padding: 2rem 0;
 
 }
 
-.follow-footer a{
+.follow-footer a {
     text-decoration: none;
     font-size: 1.5rem;
-    color:#868383;
+    color: #868383;
     margin: 0 0.7rem;
 }
+
 /* end of feeds content */
-.post-btn{
+.post-btn {
     position: fixed;
     bottom: 2rem;
     left: 68%;
-    width: 12rem; 
-    padding: 1.5rem 1rem; 
+    width: 12rem;
+    padding: 1.5rem 1rem;
     background-color: #1aa1f5;
     color: #fff;
     font-size: 2rem;
@@ -716,12 +760,13 @@ margin-bottom: .5rem;
     border-radius: 3rem;
     cursor: pointer;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.3);
-transition:background-color .3s ;
+    transition: background-color .3s;
 }
 
-.post-btn:hover{
+.post-btn:hover {
     background-color: #117abb;
-    }
+}
+
 /* end of feeds page*/
 
 
