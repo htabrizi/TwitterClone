@@ -21,7 +21,7 @@ body {
 .main-page {
     width: 100%;
     height: 100vh;
-    display: none;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr min-content;
 }
@@ -212,6 +212,7 @@ body {
     grid-row: 1 / 2;
     background-color: #fff;
     padding: 2.5rem 0;
+    box-shadow: 0 0 0.7rem rgba(0,0,0, 0.3);
 }
 
 .login-page-nav ul {
@@ -231,17 +232,29 @@ body {
 }
 
 .login-page-nav li::after {
-    content: "";
+    content: '';
     width: 100%;
     height: .4rem;
     background-color: #1aa1f5;
     position: absolute;
+    bottom: -2.5rem;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+
 }
 
+.login-page-nav li:hover::after{
+    opacity: 1;
+}
 .login-page-nav a {
     font-size: 1.6rem;
     text-decoration: none;
     color: #555555;
+    transition: color 0.3s;
+}
+.login-page-nav li:hover a{
+    color: #1aa1f5;
 }
 
 .login-page-nav i {
@@ -296,10 +309,27 @@ body {
 
 }
 
+
+.login-form{
+    display:flex;
+    flex-direction: column;
+}
+.login-form input:not(.login-form-checkbox){
+    width:30rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    border: .1rem solid #ddd;
+    border-radius:.5rem ;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+}
+.login-form input:focus{
+    background-color: #d9ebf7;
+}
 .login-form div {
     margin-top: 2rem;
 }
-
 .login-form button {
     padding: 1rem 1.5rem;
     background-color: #1aa1f5;
@@ -353,6 +383,12 @@ body {
 /* end of login page */
 
 /* feeds nav */
+
+.feeds-page {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
 .feeds-nav {
     position: fixed;
     width: 100%;
@@ -511,10 +547,6 @@ body {
     margin: 1rem;
 }
 
-.feeds-page {
-    width: 100%;
-    height: 100vh;
-}
 
 .posts {
     grid-column: 2 / 3;
