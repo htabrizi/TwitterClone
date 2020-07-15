@@ -1,13 +1,15 @@
 //DOM Elements
-const mainpage = document.querySelector('.main-page');
+const mainPage = document.querySelector('.main-page');
 const loginpage = document.querySelector('.login-page');
 const middleContent=document.querySelector('.middle-content');
+const btnTop=document.querySelector('.btn-top');
+const newsFeedPage =document.querySelector('.feeds-page')
 /*************************************************************/
 /*************************************************************/
 
 //main page
 const goToLoginPage=()=> {
-    mainpage.style.display = 'none';
+    mainPage.style.display = 'none';
     loginpage.style.display = 'grid';
 };
 middleContent.addEventListener('click',e =>
@@ -17,5 +19,18 @@ middleContent.addEventListener('click',e =>
        goToLoginPage();
    }
 
+});
+btnTop.addEventListener('click',()=>{
+    const inputUserInfo=document.querySelector('.user-info');
+    const inputPassword=document.querySelector('.password');
+
+    if(inputUserInfo.value!=="" && inputPassword.value!==""){
+mainPage.style.display='none';
+newsFeedPage.style.display='block';
+
+    }
+    else{
+        goToLoginPage()
+    }
 });
 
