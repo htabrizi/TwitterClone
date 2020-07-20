@@ -28,26 +28,22 @@ console.log(el.textContent = '<h1>Hello</h1>');
 
 
 
-var icons =document.getElementsByClassName('fa');
-for(var i=0; i<icons.length; i++)
-{
-    console.log(icons[i]);
-}
+// var icons =document.getElementsByClassName('fa');
+// 4-6 for(var i=0; i<icons.length; i++)
+// {
+//     console.log(icons[i]);
+// }
+// var iconsArr=Array.from(icons);
+// console.log(iconsArr);
+// console.log(icons);
+
+// iconsArr.push('hello');
+// console.log(iconsArr); 
 
 
-
-
-var iconsArr=Array.from(icons);
-console.log(iconsArr);
-console.log(icons);
-
-iconsArr.push('hello');
-console.log(iconsArr); 
-
-
-
-
-
-
-
+// 4-7 Array.from(icons).forEach(function(icon ){
+//     console.log(icon );
+// });
+// var lis= document.getElementsByTagName('li');
+// console.log(lis);
 
