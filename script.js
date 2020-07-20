@@ -1,7 +1,6 @@
 //DOM Elements
 const mainPage = document.querySelector('.main-page');
-const loginpage = document.quer
-ySelector('.login-page');
+const loginpage = document.querySelector('.login-page');
 const middleContent = document.querySelector('.middle-content');
 const btnTop = document.querySelector('.btn-top');
 const newsFeedPage = document.querySelector('.feeds-page');
@@ -64,7 +63,7 @@ else{
 //Post modal
 postBtn.addEventListener('click',() => {
     modal.style.display='block';
-   console.log( modalWrapper.classList.add('modal-wrapper-display'));
+   modalWrapper.classList.add('modal-wrapper-display');
 
 });
 
@@ -76,22 +75,20 @@ modalFooterPlus.style.opacity=x;
 postModalX.addEventListener('click',()=>{
     modal.style.display='none';
     modalWrapper.classList.remove('modal-wrapper-display');
-    if(modalInput.value !==""){
-        modalInput.value=""; 
-        changeOpacity(.5);
+    if(modalInput.value !== ""){
+        modalInput.value= ""; 
+        changeOpacity(0.5);
     }
 });
 modalInput.addEventListener
 ('keypress', e =>{
-    if(e.target.value !==""){
+    if(e.target.value !== ""){
         changeOpacity(1);
 
     }
 });
 modalInput.addEventListener('blur',(e)=>{
-    if(e.target.value===''){{
-        changeOpacity(.5);
-    }
-
+    if(e.target.value===''){
+        changeOpacity(0.5);
     }
 });

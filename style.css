@@ -744,7 +744,7 @@ body {
   opacity: 0;
   visibility: hidden;
 }
-.modal-wrapper-display{
+.modal-wrapper-display {
   opacity: 1;
   visibility: visible;
 }
@@ -813,7 +813,7 @@ body {
     
 }
 
-.modal-body i{
+.modal-body i {
     position: absolute;
     bottom: 8rem;
     right: 2.8rem;
