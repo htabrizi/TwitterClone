@@ -44,9 +44,13 @@ console.log(el.textContent = '<h1>Hello</h1>');
 */
 
 
-var lis = document.querySelectorAll('li,h2,#hide-list');
-console.log(lis);
+//4-8 var lis = document.querySelectorAll('li,h2,#hide-list');
+// console.log(lis);
 
-Array.from(lis).forEach(function(li){
-li.textContent='hello';
-});
+// Array.from(lis).forEach(function(li){
+// li.textContent='hello';
+// });
+
+// var lis=document.querySelectorAll('ul li')
+// undefined
+// lis[0].style.cssText='backgroundColor:yellow'
