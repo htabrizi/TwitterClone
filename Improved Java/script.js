@@ -28,9 +28,21 @@ console.log(el.textContent = '<h1>Hello</h1>');
 
 
 
+var icons =document.getElementsByClassName('fa');
+for(var i=0; i<icons.length; i++)
+{
+    console.log(icons[i]);
+}
 
 
 
+
+var iconsArr=Array.from(icons);
+console.log(iconsArr);
+console.log(icons);
+
+iconsArr.push('hello');
+console.log(iconsArr); 
 
 
 
