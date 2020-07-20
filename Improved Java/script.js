@@ -26,24 +26,27 @@ console.log(el.textContent = '<h1>Hello</h1>');
 */
 
 
+/* var icons =document.getElementsByClassName('fa');
+ 4-6 for(var i=0; i<icons.length; i++)
+ {
+     console.log(icons[i]);
+ }
+ var iconsArr=Array.from(icons);
+ console.log(iconsArr);
+ console.log(icons);
+ iconsArr.push('hello');
+ console.log(iconsArr); 
+ 4-7 Array.from(icons).forEach(function(icon ){
+     console.log(icon );
+ });
+ var lis= document.getElementsByTagName('li');
+ console.log(lis);
+*/
 
 
-// var icons =document.getElementsByClassName('fa');
-// 4-6 for(var i=0; i<icons.length; i++)
-// {
-//     console.log(icons[i]);
-// }
-// var iconsArr=Array.from(icons);
-// console.log(iconsArr);
-// console.log(icons);
+var lis = document.querySelectorAll('li,h2,#hide-list');
+console.log(lis);
 
-// iconsArr.push('hello');
-// console.log(iconsArr); 
-
-
-// 4-7 Array.from(icons).forEach(function(icon ){
-//     console.log(icon );
-// });
-// var lis= document.getElementsByTagName('li');
-// console.log(lis);
-
+Array.from(lis).forEach(function(li){
+li.textContent='hello';
+});
