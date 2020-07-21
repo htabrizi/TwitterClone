@@ -25,7 +25,6 @@ console.log(el.innerHTML = '<h1>Hello</h1>');
 console.log(el.textContent = '<h1>Hello</h1>');
 */
 
-
 /* var icons =document.getElementsByClassName('fa');
  4-6 for(var i=0; i<icons.length; i++)
  {
@@ -43,7 +42,6 @@ console.log(el.textContent = '<h1>Hello</h1>');
  console.log(lis);
 */
 
-
 //4-8 var lis = document.querySelectorAll('li,h2,#hide-list');
 // console.log(lis);
 
@@ -54,3 +52,10 @@ console.log(el.textContent = '<h1>Hello</h1>');
 // var lis=document.querySelectorAll('ul li')
 // undefined
 // lis[0].style.cssText='backgroundColor:yellow'
+
+var h2 = document.querySelector("header h2");
+h2.className = 'changeBg';
+h2.className.add('changeFt');
+h2.classList.remove('changeBg');
+h2.classList.toggle('changeBg')
+console.log(h2.classList);

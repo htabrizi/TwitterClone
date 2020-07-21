@@ -1,0 +1,245 @@
+[33mcommit 00b060198dce625f20bf276294faaa558ed4ee5c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 19:52:33 2020 +0430
+
+    4-9 Improved JS
+
+[33mcommit 1d3469590f35c659affd9f0f1d571a936fdbe92e[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 19:22:05 2020 +0430
+
+    4-8 Improved JS
+
+[33mcommit 1633cd56b139f506e89271a7021393db84fbf226[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 18:35:06 2020 +0430
+
+    4-7 Improved JS
+
+[33mcommit d3f03746904692ee214169615082a191d23a3321[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 17:43:42 2020 +0430
+
+    4-6 Improved JS
+
+[33mcommit 7dea7828e8e4715f14bfd9ad3b62399d0035dd12[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 12:47:29 2020 +0430
+
+    4-5 Improved JS
+
+[33mcommit 9fc9bb0f17f63b77a013597e6f2364c0b32ae483[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 12:01:56 2020 +0430
+
+    4-4 Improved JS
+
+[33mcommit bfbaa53167141e465a67c380a07cd13181302953[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 11:30:23 2020 +0430
+
+    4-3 Improved JS
+
+[33mcommit c69623318526421bbd6c8434d6589d088e884c10[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Mon Jul 20 10:11:48 2020 +0430
+
+    97 fixed Error
+
+[33mcommit 433d03ebbde2db29d2a92171686656503a792d8a[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sun Jul 19 19:59:06 2020 +0430
+
+    97 javascript make post modal work ERROR to load page
+
+[33mcommit 36077221ecc551886e8d75ef22c2121d7a4eb3c4[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sat Jul 18 19:58:28 2020 +0430
+
+    96 add css to modal box completed
+
+[33mcommit 50395a4441df915cc3a420e3c07ebd37b541318c[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Thu Jul 16 11:18:02 2020 +0430
+
+    95 Add css to modal box header
+
+[33mcommit c912b3aa80c4b7c97571dad49f90a8f281c1316e[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Thu Jul 16 10:14:26 2020 +0430
+
+    94 Create structure of modal box
+
+[33mcommit 46261cdbbb34f81c8592f9f2b7b93db36bdcc569[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Thu Jul 16 08:48:48 2020 +0430
+
+    93 Javascript login page validation
+
+[33mcommit e21246ecc38182aafaec54b4ea7b79cbedc1733b[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Wed Jul 15 21:50:59 2020 +0430
+
+    92 Javascript create modal-box
+
+[33mcommit cef61add8c5276bfb6a3cc73adf0c81f3949c998[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Wed Jul 15 21:20:51 2020 +0430
+
+    91 Javascript main page validation
+
+[33mcommit 08524679c35e976442f4f5c34506ecae66a52c7b[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Wed Jul 15 20:56:07 2020 +0430
+
+    90 Javascript navigate to login page
+
+[33mcommit 970adb5376d48871d3513e4ae4e2eeb3640f50aa[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Tue Jul 14 20:04:14 2020 +0430
+
+    69 Create post button
+
+[33mcommit 8127edc665f6bf8be9bcfd4f6c23a93f65d860b0[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Tue Jul 14 19:48:40 2020 +0430
+
+    68 Add css to who to follow section
+
+[33mcommit 8b0871de65656139236287eea7f264de7b46f8d3[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sun Jul 12 19:19:14 2020 +0430
+
+    67 Structure of who to follow section
+
+[33mcommit 90a52f5b8bf3a35c0f3b55dce222467d9d1d32a6[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sun Jul 12 18:11:55 2020 +0430
+
+    66 add css to posts section ERROR RIGHT SIDE
+
+[33mcommit cd639ac584b2db10727ff1e258d5dc7515977abb[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sun Jul 12 17:34:34 2020 +0430
+
+    64 add css to news feed header
+
+[33mcommit d39901b46c55d67aa866cba08d12e323eb8bc120[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sun Jul 12 16:23:27 2020 +0430
+
+    Add css to news feed header
+
+[33mcommit 4fb64353ae18f030498acf77a76d1903aaa7ed62[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sun Jul 12 15:34:17 2020 +0430
+
+    Test
+
+[33mcommit d15a76662f62a0ce26c34ee2e84a2063a2898fd6[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sat Jul 11 02:18:23 2020 +0430
+
+    Create structure of news feed header
+
+[33mcommit b91c30bcf2929c8e933659ed21f81887f8dd8fd4[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sat Jul 11 02:04:54 2020 +0430
+
+    Add css to navigation in news feed page
+
+[33mcommit d0845a0a6c718a4bb8fa57f1287e269144fb19c5[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Sat Jul 11 01:08:44 2020 +0430
+
+    Create structure of navigation feed page
+
+[33mcommit 0dbff8b1e8bc83c29a2803d0550b3f57a90a32cd[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Thu Jul 9 19:31:04 2020 +0430
+
+    Improved add css to login
+
+[33mcommit 8b55b60b11878331bde2ef2a5c39f428956a6186[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Thu Jul 9 18:51:46 2020 +0430
+
+    Add css to login
+
+[33mcommit 90e9c0b2976a7990d37d9ce3195b1a4a4816e67c[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Thu Jul 9 18:23:52 2020 +0430
+
+    Add css to navigation
+
+[33mcommit 745e58bbd0aa6e14c3a0adc0bf2e196dd8429932[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Wed Jul 8 23:06:53 2020 +0430
+
+    Layout of elements
+
+[33mcommit 10993fe093e630b73b307771625df5855aff40b8[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Wed Jul 8 22:45:04 2020 +0430
+
+    Create structure of login page
+
+[33mcommit 2766e7f240980b5c3d5631deb85dcc3a593eadc2[m
+Author: Hamid-Tabrizi <h.tabrizi@orbs.ir>
+Date:   Tue Jul 7 09:46:21 2020 +0430
+
+    test
+
+[33mcommit 7599f171263709d28a05677604bfc62ce35880ad[m
+Author: hamid <taha.email@gmail.com>
+Date:   Tue Jul 7 09:40:31 2020 +0430
+
+    Style footer main page
+
+[33mcommit b747292f3f88c3699ccc49659d68658dbe14a31b[m
+Author: hamid <taha.email@gmail.com>
+Date:   Tue Jul 7 09:25:12 2020 +0430
+
+    Style Signup and Login right main page
+
+[33mcommit bc35848848f16969e8cca6849becdc907b86c948[m
+Author: hamid <taha.email@gmail.com>
+Date:   Tue Jul 7 09:06:13 2020 +0430
+
+    Update style right main page
+
+[33mcommit 6244c7386beeaaa22934ec7d28f574cf27e61c8c[m
+Author: hamid <taha.email@gmail.com>
+Date:   Tue Jul 7 08:38:04 2020 +0430
+
+    Style right main page
+
+[33mcommit eaf789d9289c5d7a3bb506ac2e24da7d607085af[m
+Author: hamid <taha.email@gmail.com>
+Date:   Tue Jul 7 08:19:52 2020 +0430
+
+    style left main page
+
+[33mcommit 6fd196bd94581dd6505218b7fe5816680ccb3f05[m
+Author: hamid <taha.email@gmail.com>
+Date:   Tue Jul 7 07:49:30 2020 +0430
+
+    common styles (style.css)
+
+[33mcommit ff8973b994e684336fff3c1f36ffcdaab23b327a[m
+Author: hamid <taha.email@gmail.com>
+Date:   Mon Jul 6 22:19:14 2020 +0430
+
+    Create structure of main page
+
+[33mcommit c81ac494e8c2657ebc8c78f7e4f18a38d91b24fc[m
+Author: hamid <taha.email@gmail.com>
+Date:   Mon Jul 6 21:27:58 2020 +0430
+
+    Create index.html,script.js&style.css
+
+[33mcommit 6996cbed049d200f57673868ba51a363e91bae1c[m
+Author: Hamid-Tabrizi <67880123+htabrizi@users.noreply.github.com>
+Date:   Mon Jul 6 20:24:54 2020 +0430
+
+    Create LICENSE
