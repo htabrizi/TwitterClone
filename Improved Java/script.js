@@ -61,9 +61,8 @@ console.log(el.textContent = '<h1>Hello</h1>');
 // console.log(h2.classList);
 
 var h2 = document.querySelector('header h2'); 
- function a (){
-    console.log('clicked');
-}
- function b (){
-    console.log('mover');
-}
+ h2.addEventListener('click',a)
+ function a(e1){
+     console.log(this
+        );
+ }
