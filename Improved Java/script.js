@@ -71,7 +71,7 @@ console.log(el.textContent = '<h1>Hello</h1>');
 
 // var div=document.querySelector('div.wrapper');
 // var header = document.querySelector('header');
-var h2=document.querySelector('h2 header');
+// var h2=document.querySelector('h2 header');
 // div.addEventListener('click',()=>{
 //     var delay=new Date().getTime()+1000;
 //     while(new Date()<delay){}
@@ -83,15 +83,12 @@ var h2=document.querySelector('h2 header');
 //     while(new Date()<delay){}
 //     console.log('from header');
 // });
-h2.addEventListener('click',function(){
-   
-    console.log('from click event');
-});
- function a(){
-    var delay= new Date().getTime()+3000;
-    while (new Date()<delay){}
-    console.log('from a');
+// oc
+var btn= document.getElementById('add-btn');
+var input =document.getElementById('add-input');
 
-}
-a();
-console.log('global exe');
+btn.addEventListener('click',(e)=>{
+    e.preventDefault();
+    input.setAttribute('type','submit');
+    input.setAttribute('value', input.value);
+})
