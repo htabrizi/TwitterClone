@@ -84,11 +84,17 @@ console.log(el.textContent = '<h1>Hello</h1>');
 //     console.log('from header');
 // });
 // oc
-var btn= document.getElementById('add-btn');
-var input =document.getElementById('add-input');
+// var btn= document.getElementById('add-btn');
+// var input =document.getElementById('add-input');
 
-btn.addEventListener('click',(e)=>{
-    e.preventDefault();
-    input.setAttribute('type','submit');
-    input.setAttribute('value', input.value);
-})
+// btn.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     input.setAttribute('type','submit');
+//     input.setAttribute('value', input.value);
+// })
+
+var listItem=document.getElementById("list-item");
+
+
+
+  
