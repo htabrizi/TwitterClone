@@ -93,8 +93,13 @@ console.log(el.textContent = '<h1>Hello</h1>');
 //     input.setAttribute('value', input.value);
 // })
 
-var listItem=document.getElementById("list-item");
+var newEl = document.createElement('button');
+var text = document.createTextNode('click');
+var form = document.getElementById('add');
+newEl.setAttribute('style','display:block;background:green')
+newEl.appendChild(text);
 
-
-
-  
+console.log(newEl);
+ form.appendChild(newEl);
+form.insertBefore(newEl,form.children[1]);
+newEl.parentElement.removeChild(newEl);
