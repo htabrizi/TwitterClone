@@ -60,9 +60,38 @@ console.log(el.textContent = '<h1>Hello</h1>');
 // h2.classList.toggle('changeBg')
 // console.log(h2.classList);
 
-var h2 = document.querySelector('header h2'); 
- h2.addEventListener('click',a)
- function a(e1){
-     console.log(this
-        );
- }
+// var h2 = document.querySelector('header h2'); 
+//  h2.addEventListener('click',function(){
+//      a(5,20);
+//  })
+//  function a(x,y){
+//      console.log(x*y);
+//  }
+
+
+// var div=document.querySelector('div.wrapper');
+// var header = document.querySelector('header');
+var h2=document.querySelector('h2 header');
+// div.addEventListener('click',()=>{
+//     var delay=new Date().getTime()+1000;
+//     while(new Date()<delay){}
+//     console.log('from div');
+    
+// },false);
+// header.addEventListener('click',()=> {
+//     var delay=new Date().getTime()+1000;
+//     while(new Date()<delay){}
+//     console.log('from header');
+// });
+h2.addEventListener('click',function(){
+   
+    console.log('from click event');
+});
+ function a(){
+    var delay= new Date().getTime()+3000;
+    while (new Date()<delay){}
+    console.log('from a');
+
+}
+a();
+console.log('global exe');
