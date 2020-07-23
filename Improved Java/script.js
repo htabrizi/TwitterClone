@@ -104,10 +104,44 @@ console.log(el.textContent = '<h1>Hello</h1>');
 // form.insertBefore(newEl,form.children[1]);
 // newEl.parentElement.removeChild(newEl);
 
-//ex3
+//example3
+// var btn= document.getElementById('add-btn');
+// var input =document.getElementById('add-input');
+// btn.addEventListener('click',(e)=>{
+//     e.preventDefault();
+
+// })
+
+
+var ul=document.querySelector('ul');
 var btn= document.getElementById('add-btn');
-var input =document.getElementById('add-input');
-btn.addEventListener('click',(e)=>{
+if (addInput !==''){
+    btn.addEventListener('click',(e)=>{
     e.preventDefault();
-    
-})
+    var addInput=document.getElementById('add-input');
+    var li=document.createElement('li'),
+    firstPar= document.createElement('p'),
+    secondPar=document.createElement('p'),
+    firstIcon=document.createElement('i'),
+    secondIcon=document.createElement('i'),
+    input =document.createElement('add-input');
+
+
+    firstIcon.className="fa fa-pencil-square-o";
+    secondIcon.className="fa fa-times";
+    input.className= "edit-note";
+    input.setAttribute('type','text');
+    firstPar.textContent=addInput.value;
+    secondPar.appendChild(firstIcon);
+    secondPar.appendChild(secondIcon);
+li.appendChild(firstPar)
+ul.appendChild(li);
+
+addInput.value = ''
+
+
+}
+
+
+
+});
