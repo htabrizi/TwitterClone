@@ -60,14 +60,13 @@ console.log(el.textContent = '<h1>Hello</h1>');
 // h2.classList.toggle('changeBg')
 // console.log(h2.classList);
 
-// var h2 = document.querySelector('header h2'); 
+// var h2 = document.querySelector('header h2');
 //  h2.addEventListener('click',function(){
 //      a(5,20);
 //  })
 //  function a(x,y){
 //      console.log(x*y);
 //  }
-
 
 // var div=document.querySelector('div.wrapper');
 // var header = document.querySelector('header');
@@ -76,7 +75,7 @@ console.log(el.textContent = '<h1>Hello</h1>');
 //     var delay=new Date().getTime()+1000;
 //     while(new Date()<delay){}
 //     console.log('from div');
-    
+
 // },false);
 // header.addEventListener('click',()=> {
 //     var delay=new Date().getTime()+1000;
@@ -88,7 +87,7 @@ console.log(el.textContent = '<h1>Hello</h1>');
 // var input =document.getElementById('add-input');
 
 // btn.addEventListener('click',(e)=>{
-//     
+//
 //     input.setAttribute('type','submit');
 //     input.setAttribute('value', input.value);
 // })
@@ -112,36 +111,48 @@ console.log(el.textContent = '<h1>Hello</h1>');
 
 // })
 
-
-var ul=document.querySelector('ul');
-var btn= document.getElementById('add-btn');
-if (addInput !==''){
-    btn.addEventListener('click',(e)=>{
-    e.preventDefault();
-    var addInput=document.getElementById('add-input');
-    var li=document.createElement('li'),
-    firstPar= document.createElement('p'),
-    secondPar=document.createElement('p'),
-    firstIcon=document.createElement('i'),
-    secondIcon=document.createElement('i'),
-    input =document.createElement('add-input');
+var ul = document.querySelector("ul");
 
 
-    firstIcon.className="fa fa-pencil-square-o";
-    secondIcon.className="fa fa-times";
-    input.className= "edit-note";
-    input.setAttribute('type','text');
-    firstPar.textContent=addInput.value;
+
+/* Add Elements */
+var btn = document.getElementById("add-btn");
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  var addInput = document.getElementById("add-input");
+  if (addInput !== "") {
+    var li = document.createElement("li"),
+      firstPar = document.createElement("p"),
+      secondPar = document.createElement("p"),
+      firstIcon = document.createElement("i"),
+      secondIcon = document.createElement("i"),
+      input = document.createElement("add-input");
+
+    firstIcon.className = "fa fa-pencil-square-o";
+    secondIcon.className = "fa fa-times";
+    input.className = "edit-note";
+    input.setAttribute("type", "text");
+    firstPar.textContent = addInput.value;
     secondPar.appendChild(firstIcon);
     secondPar.appendChild(secondIcon);
-li.appendChild(firstPar)
-ul.appendChild(li);
+    li.appendChild(firstPar);
+    ul.appendChild(li);
 
-addInput.value = ''
+    addInput.value = "";
+  }
+});
 
 
+/* Edit and Delete items */
+ul.addEventListener('click', function(e){
+if(e.target.classList[1] === "fa-pencil-square-o"){
+    
+var parentPar= e.target.parentNode;
+
+parentPar.style.display='none'; 
+var note = parentPar.previousElementSibling;
+var input= parentPar.nextElementSibling;
+input.style.display='block'
+input.value=note.textContent;
 }
-
-
-
 });
