@@ -176,3 +176,19 @@ input.addEventListener('keypress',function(e){
     lis.parentNode.removeChild(lis);
 }
 });
+/*Hide Items */
+var hideItem=document.getElementById('hide');
+hideItem.addEventListener('click',()=>{
+    
+    var lable=document.querySelector('label');
+    if(hideItem.checked){
+        lable.textContent='unhide notes'
+        ul.style.display='none';
+    }else{
+        lable.textContent='hide notes'
+        ul.style.display='block';
+
+    }
+}
+
+);
