@@ -183,7 +183,7 @@ hideItem.addEventListener('click',()=>{
     var lable=document.querySelector('label');
     if(hideItem.checked){
         lable.textContent='unhide notes'
-        ul.style.display='none';
+        ul.style.display='none'; 
     }else{
         lable.textContent='hide notes'
         ul.style.display='block';
@@ -192,3 +192,19 @@ hideItem.addEventListener('click',()=>{
 }
 
 );
+/**search filter */
+ var searchInput=document.querySelector('#search-note input');
+ searchInput.addEventListener('keyup',(e)=>{
+     var searchChar=e.target.value.toUpperCase();
+var notes= ul.getElementsByTagName('li');
+Array.from(notes).forEach((note)=>{ 
+var parText = note.firstElementChild.textContent;
+ if(parText.toUpperCase().indexOf(searchChar)!== -1){
+     note.style.display='block';
+        
+ }
+ else{
+     note.style.display='none';
+ }
+});
+    });
