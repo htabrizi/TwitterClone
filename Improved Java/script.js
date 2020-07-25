@@ -1,9 +1,11 @@
-function a(){}
-console.log(typeof a); 
-
-function p(first,last){
-    this.first=first;
-    this.last=last;
-
-}
-console.log(typeof p);
+var fristProto={
+    sayHello:function(){
+        return  this.name;
+    }
+};
+var john =Object.create(firstProto,{
+    name:{
+        value:'john'
+    }
+});
+console.log(john);
