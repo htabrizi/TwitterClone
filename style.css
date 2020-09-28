@@ -20,7 +20,7 @@ body {
 .main-page {
   width: 100%;
   height: 100vh;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr min-content;
 }
@@ -189,7 +189,7 @@ body {
 .login-page {
   width: 100%;
   height: 100vh;
-  display: none;
+  display: none ;
   grid-template-columns: minmax(5rem, 1fr) 2fr minmax(5rem, 1fr);
   grid-template-rows: repeat(2, min-content) 1fr;
   grid-row-gap: 1.5rem;
@@ -260,7 +260,7 @@ body {
   grid-row: 2/3;
   background-color: #fff;
   width: 100rem;
-  display: grid;
+  display: none;
   grid-template-columns: 10rem 8fr;
   grid-template-rows: 2fr 1fr;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
@@ -290,6 +290,7 @@ body {
   grid-column: 2/-1;
   grid-row: 1/2;
   padding: 5rem 0 1rem 0;
+
 }
 
 .login-content h2 {
@@ -404,7 +405,7 @@ body {
 .feeds-page {
   width: 100%;
   height: 100vh;
-  display: none;
+  display: block;
 }
 
 .feeds-nav {

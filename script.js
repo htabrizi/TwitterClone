@@ -40,7 +40,7 @@ btnTop.addEventListener('click', () => {
         goToLoginPage()
         loginModal.style.display = 'block';
 
-        
+
     }
 });
 
