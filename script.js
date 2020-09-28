@@ -18,10 +18,10 @@ const modalInput=document.querySelector('.modal-input');
 /*************************************************************/
 /*************************************************************/
 //main page  
-const goToLoginPage = () => {
+const goToLoginPage = () => {};
     mainPage.style.display = 'none';
     loginpage.style.display = 'grid';
-};
+
 middleContent.addEventListener('click', e => {
     if (e.target.classList[1] === 'main-btn') {
         goToLoginPage();
@@ -39,7 +39,7 @@ btnTop.addEventListener('click', () => {
     } else {
         goToLoginPage()
         loginModal.style.display = 'block';
-        
+
     }
 });
 
