@@ -80,7 +80,7 @@ postModalX.addEventListener('click',()=>{
     if(modalInput.value !== ""){
         modalInput.value= ""; 
         changeOpacity(0.5);
-        
+
     }
 });
 modalInput.addEventListener
