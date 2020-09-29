@@ -80,13 +80,14 @@ postModalX.addEventListener('click',()=>{
     if(modalInput.value !== ""){
         modalInput.value= ""; 
         changeOpacity(0.5);
+        
     }
 });
 modalInput.addEventListener
 ('keypress', e =>{
     if(e.target.value !== ""){
         changeOpacity(1);
-        
+
 
     }
 });
