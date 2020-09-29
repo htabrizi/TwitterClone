@@ -747,7 +747,7 @@ body {
   visibility: hidden;
 }
 .modal-wrapper-display {
-  opacity: 1;
+  opacity:1;
   visibility: visible;
 }
 .modal {

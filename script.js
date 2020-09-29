@@ -86,6 +86,7 @@ modalInput.addEventListener
 ('keypress', e =>{
     if(e.target.value !== ""){
         changeOpacity(1);
+        
 
     }
 });
