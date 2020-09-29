@@ -916,6 +916,62 @@ display: flex;
     align-items: center;
     color: #1aa1f5;
   }
+  .sidebar-user-info{
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+  }
+
+  .sidebar-user-info h4{
+    margin-bottom: .5rem  ;
+  }
+  .following{
+    display: flex;
+    padding:1.5rem 0;
+
+  }
+.following-paragraph{
+  font-size: 1.8rem;
+
+}
+.following-paragraph:first-child{
+  margin-right: 2.5rem;
+
+}
+.following-paragraph span{
+  font-weight: bold;
+}
+.sidebar-list-1{
+  border-bottom: .1rem solid #eee;
+}
+.sidebar-list-1 ul{
+  list-style: none;
+padding: 1.5rem 0;
+}
+.sidebar-list-1 li{
+  margin-bottom: 2.5rem;
+}
+.sidebar-list-1 a{
+  text-decoration: none ;
+  font-size: 1.6rem;
+  color: #868383;
+
+}
+.sidebar-list-1 i{
+  margin-right: 1rem;
+}
+.sidebar-list-2 ul{
+  list-style: none;
+  padding: 1.5rem 0;
+}
+.sidebar-list-2 li{
+  margin-bottom: 2.5rem;
+}
+.sidebar-list-2 a{
+  text-decoration: none ;
+  font-size: 1.6rem;
+  color: #868383;
+
+}
 
 /*end of sidebar */
 
