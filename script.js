@@ -17,11 +17,13 @@ const modalInput=document.querySelector('.modal-input');
 const user=document.querySelector('.user');
 const sidebar=document.querySelector('.siderbar');
 const sidebarWrapper=document.querySelector('.siderbar-wrapper');
-const XBtn=document.querySelector('.siderbar-header i');
+const xBtn=document.querySelector('.siderbar-header i');
+const toggle=document.querySelector('.toggle');
+const circle=document.querySelector('.circle');
 
 /*************************************************************/
 /*************************************************************/
-//main page  
+//main page
 const goToLoginPage = () => {};
     mainPage.style.display = 'none';
     loginpage.style.display = 'grid';
@@ -82,7 +84,7 @@ postModalX.addEventListener('click',()=>{
     modal.style.display='none';
     modalWrapper.classList.remove('modal-wrapper-display');
     if(modalInput.value !== ""){
-        modalInput.value= ""; 
+        modalInput.value= "";
         changeOpacity(0.5);
 
     }
@@ -108,8 +110,14 @@ user.addEventListener('click',()=>{
     sidebarWrapper.classList.add('sidebar-wrapper-display')
 });
 
-XBtn.addEventListener('click' ,()=>{
+xBtn.addEventListener('click' ,()=>{
     sidebar.classList.remove('sidebar-display');
     sidebarWrapper.classList.remove('sidebar-wrapper-display');
+
+});
+
+//darkmode
+toggle.addEventListener('click',()=>{
+   circle.classList.toggle('move');
 
 });
