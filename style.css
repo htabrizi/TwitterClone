@@ -1021,7 +1021,24 @@ border-radius: 3rem;
 
 }
 
-/*end of DarkMode*/
+dark-1{
+  background-color: #1c2938;
+  }
 
+dark-2{
+  background-color: #10171e;
+
+}
+
+.light  {
+  color: #fff;
+  }
+.border-color{
+  border-color: #444444;
+}
+
+
+
+/*end of DarkMode*/
 /*end of sidebar */
 /* end of feeds page*/

@@ -117,7 +117,8 @@ xBtn.addEventListener('click' ,()=>{
 });
 
 //darkmode
+const darkElements1 = document.querySelectorAll('.dark-mode-1')
 toggle.addEventListener('click',()=>{
    circle.classList.toggle('move');
-
+    console.log(Array.from(darkElements1);
 });
