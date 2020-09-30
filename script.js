@@ -17,9 +17,7 @@ const modalInput=document.querySelector('.modal-input');
 const user=document.querySelector('.user');
 const sidebar=document.querySelector('.siderbar');
 const sidebarWrapper=document.querySelector('.siderbar-wrapper');
-const xBtn=document.querySelector('.siderbar-header i');
-const toggle=document.querySelector('.toggle');
-const circle=document.querySelector('.circle');
+const XBtn=document.querySelector('.siderbar-header i');
 
 /*************************************************************/
 /*************************************************************/
@@ -110,14 +108,8 @@ user.addEventListener('click',()=>{
     sidebarWrapper.classList.add('sidebar-wrapper-display')
 });
 
-xBtn.addEventListener('click' ,()=>{
+XBtn.addEventListener('click' ,()=>{
     sidebar.classList.remove('sidebar-display');
     sidebarWrapper.classList.remove('sidebar-wrapper-display');
-
-});
-
-//darkmode
-toggle.addEventListener('click',()=>{
-   circle.classList.toggle('move');
 
 });
