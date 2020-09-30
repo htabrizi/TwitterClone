@@ -1034,7 +1034,7 @@ dark-2{
   color: #fff;
   }
 .border-color{
-  border-color: #444444;
+  border-color: #444444 !important;
 }
 
 
